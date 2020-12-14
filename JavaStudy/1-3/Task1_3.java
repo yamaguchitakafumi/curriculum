@@ -12,14 +12,14 @@
 public class Task1_3 {
     public static void main(String[] args) {
         // ① 5 と 10 を加算した値を代入する、変数 plus を作成しなさい。
-        int plus = 5; plus +=10;
+        int plus = 5 + 10;
         // ② 20 から 7 を減算した値を代入する、変数 minus を作成しなさい。
-        int minus = 20; minus -=7;
+        int minus = 20 - 7;
         // ③下記の処理について、何をしているのかコメントを記入してください。
         // [10掛ける2した値をmultiplyの変数に代入する。]
-        int multiply = 10; multiply *=2;
+        int multiply = 10 * 2;
         // ④ 20 を 6 で割った余りを代入する、変数 remi を作成しなさい。
-        int remi = 20; remi %=6;
+        int remi = 20 % 6;
         // ⑤下記の処理について、何をしているのかコメントを記入してください
         // [String townの変数に有楽町を代入。String lineの変数の線を代入。]
         String town = "有楽町";
